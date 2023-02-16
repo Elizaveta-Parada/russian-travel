@@ -1,0 +1,11 @@
+.lead {
+    width: 984px;
+    height: 1005px;
+    margin: 56px 148px auto;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
