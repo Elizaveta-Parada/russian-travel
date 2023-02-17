@@ -1,0 +1,11 @@
+.place__paragraph {
+    padding: 0;
+    grid-area: text;
+    max-width: 484px;
+    display: grid;
+    grid-template-rows: min-content;
+    gap: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.34px;
+}
