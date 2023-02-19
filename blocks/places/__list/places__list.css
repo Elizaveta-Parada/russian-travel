@@ -5,4 +5,13 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
+    height: 3392px;
+
+}
+
+@media screen and (max-width: 1279px) {
+    .places__list {
+        height: 3292px;
+    }
+    
 }

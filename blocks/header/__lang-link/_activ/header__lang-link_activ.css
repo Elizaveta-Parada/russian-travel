@@ -3,3 +3,10 @@
     height: 28px;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 767px) {
+    .header__lang-link_activ {
+        width: 22px;
+        height: 20px;
+    }
+}

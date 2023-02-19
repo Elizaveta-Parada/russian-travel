@@ -4,3 +4,8 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+
+.place__website_link:hover {
+    transition: color 1s ease 0.5s;
+    opacity: 0.8;
+  }

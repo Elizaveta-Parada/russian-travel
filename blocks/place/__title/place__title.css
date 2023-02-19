@@ -4,8 +4,16 @@
     font-size: 72px;
     line-height: 76px;
     grid-area: title;
-    max-width: 460px;
+    width: 460px;
     min-height: 76px;
     display: flex;
     align-items: end;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__title {
+        width: 440px;
+
+    }
+    
 }
