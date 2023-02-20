@@ -24,9 +24,9 @@
 }
 
 /*для экрана 320px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .header {
         max-width: 288px;
-        margin: 16px 16px 48px 16px;
+        margin: 16px 16px 0px 16px;
     }  
 }
