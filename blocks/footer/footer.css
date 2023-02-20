@@ -8,8 +8,30 @@
     justify-content: space-between;
 }
 
+/* для экранов 1024px */
 @media screen and (max-width: 1279px) {
     .footer {
         max-width: 928px;
     }
+}
+
+/* для экранов 768px */
+@media screen and (max-width: 1023px) {
+    .footer {
+        max-width: 720px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    
+}
+
+/* для экранов 320px */
+@media screen and (max-width: 767px) {
+    .footer {
+        max-width: 186px;
+        min-height: 310px;
+        flex-direction: column;
+        margin-left: 16px;
+    }
+    
 }

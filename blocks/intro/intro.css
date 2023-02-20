@@ -1,31 +1,31 @@
 .intro {
     margin: 92px auto 92px 148px;
-    width: 690px;
-    height: 429px;
+    width: 100%;
+    max-width: 690px;
+    height: auto;
+    min-height: 429px;
     display: flex;
     flex-direction: column;
 }
-
+/* для экранов 1024px */
 @media screen and (max-width: 1279px) {
     .intro {
         margin-left: 48px;
     }
     
 }
-
+/* для экранов 768px */
 @media screen and (max-width: 1023px) {
     .intro { 
-        width: 720px;
-        margin-top: 88px;
-        margin-left: 24px;
-        margin-right: 24px;
+        max-width: 720px;
+        margin: 88px 24px;
     }
 }
-
+/* для экранов 320px */
 @media screen and (max-width: 767px) {
     .intro {
-        width: 288px;
-        height: 754px;
+        max-width: 288px;
+        min-height: 754px;
         margin-top: 64px;
         margin-left: 16px;
         margin-right: 16px;

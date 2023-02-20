@@ -1,7 +1,9 @@
 .lead__title {
     padding: 0;
-    width: 720px;
-    height: 200px;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    min-height: 200px;
     margin: 0px 132px 32px;
     font-weight: 900;
     font-size: 96px;
@@ -9,22 +11,25 @@
     text-align: center;
 }
 
+/* для экранов 1024px*/
 @media screen and (max-width: 1279px ) {
     .lead__title {
         margin: 0 104px 32px;
     } 
 }
 
+/* для экранов 768px*/
 @media screen and (max-width: 1023px) {
     .lead__title {
         margin: 0 24px 32px;
     }
 }
 
+/* для экранов 320px*/
 @media screen and (max-width: 767px) {
     .lead__title {
-        width: 288px;
-        height: 88px;
+        max-width: 288px;
+        min-height: 88px;
         font-weight: 900;
         font-size: 40px;
         line-height: 44px;

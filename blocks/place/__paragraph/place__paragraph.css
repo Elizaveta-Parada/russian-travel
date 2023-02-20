@@ -1,6 +1,7 @@
 .place__paragraph {
     padding: 0;
     grid-area: text;
+    width: 100%;
     max-width: 484px;
     display: grid;
     grid-template-rows: min-content;
@@ -8,4 +9,21 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 29.34px;
+}
+
+/* для экранов 768px */
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        max-width: 352px;
+        font-size: 16px;
+        gap: 25px;
+    }  
+}
+
+/* для экранов 320px */
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+        max-width: 288px;
+        margin-left: 16px;
+    } 
 }

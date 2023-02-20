@@ -2,9 +2,24 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    width: 690px;
-    height: 90px;
-    font-weight: 700;
+    width: 100%;
+    max-width: 690px;
+    min-height: 90px;
+    font-weight: 400;
     font-size: 12px;
     line-height: 18px;
+}
+
+/* для экранов 768px */
+@media screen and (max-width: 1023px) {
+    .intro__list {
+        max-width: 720px;
+    } 
+}
+
+/* для экранов 320px */
+@media screen and (max-width: 768px) {
+    .intro__list {
+        max-width: 288px;
+    }    
 }

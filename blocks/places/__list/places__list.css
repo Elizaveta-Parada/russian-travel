@@ -5,13 +5,30 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
-    height: 3392px;
+    /* height: auto;
+    height: 3392px; */
 
 }
 
+/* для экранов 1024px 
 @media screen and (max-width: 1279px) {
     .places__list {
         height: 3292px;
+    } 
+}
+
+/* для экранов 768px */
+@media screen and (max-width: 1023px) {
+    .places__list {
+        /* min-height: 2808px; */
+        gap: 72px;
+    }   
+}
+
+/* для экранов 320px */
+@media screen and (max-width: 768px) {
+    .places__list {
+        gap: 50px;
     }
     
 }

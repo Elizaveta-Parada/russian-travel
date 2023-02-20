@@ -3,6 +3,24 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26.08px;
-    width: 690px;
-    height: 208px;
+    width: 100%;
+    max-width: 690px;
+    height: auto;
+    min-height: 208px;
+}
+
+/* для экранов 768px */
+@media screen and (max-width: 1023px) {
+    .intro__text {
+        max-width: 720px;
+    } 
+}
+
+/* для экранов 320px */
+@media screen and (max-width: 768px) {
+    .intro__text {
+        max-width: 288px;
+        min-height: 520px;
+        margin-bottom: 34px;
+    }
 }

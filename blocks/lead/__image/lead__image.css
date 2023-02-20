@@ -1,27 +1,32 @@
 .lead__image {
-    width: 984px;
-    height: 615px;
+    width: 100%;
+    max-width: 984px;
+    height: 100%;
+    min-height: 615px;
     object-fit: cover;
 }
 
+/* для экранов 1024px*/
 @media screen and (max-width: 1279px) {
     .lead__image {
-        width: 928px;
-        height: 580px;
+        max-width: 928px;
+        min-height: 580px;
     } 
 } 
 
+/* для экранов 768px*/
 @media screen and (max-width: 1023px) {
     .lead__image {
-        width: 768px;
-        height: 480px;
+        max-width: 768px;
+        min-height: 480px;
     }
 }
 
+/* для экранов 320px*/
 @media screen and (max-width: 767px) {
     .lead__image {
-        width: 320px;
-        height: 200px;
+        max-width: 320px;
+        min-height: 200px;
     }
     
 }

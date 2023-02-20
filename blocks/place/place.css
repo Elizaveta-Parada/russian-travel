@@ -1,21 +1,47 @@
 .place {
-    width: 984px;
+    width: 100%;
+    max-width: 984px;
     height: 660px;
     list-style: none;
     display: grid;
    grid-template-columns:  minmax(1fr, max-content)  minmax(min-content, max-content);
-/*  grid-template-columns: 440px 1fr; */
     grid-gap: 48px 40px;
     grid-template-areas:
         "title website"
         "image text";
 }
 
+/* для экранов 1024px */
 @media screen and (max-width: 1279px) {
     .place {
-        width: 924px;
+        max-width: 924px;
         height: 640px;
         grid-gap: 48px 32px;
+    }   
+}
+
+/* для экранов 768px */
+@media screen and (max-width: 1023px) {
+    .place {
+        max-width: 720px;
+        height: 434px;
+        grid-gap: 48px 28px;
+    }
+    
+}
+
+/* для экранов 320px */
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(1fr, max-content );
+        grid-gap: 32px;
+        grid-template-areas:
+        "title" 
+        "website"
+        "image" 
+        "text";   
+
     }
     
 }

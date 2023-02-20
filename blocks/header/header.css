@@ -1,4 +1,5 @@
 .header {
+    width: 100%;
     max-width: 1184px;
     min-height: 52px;
     margin: 28px 48px 0;
@@ -6,14 +7,26 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1023px) {
+/* для экрана 1024px */
+@media screen and (max-width: 1279px) {
     .header {
-        width: calc(100% - 24px*2);
+         max-width: 928px;
     }
 }
 
-@media screen and (max-width: 767px) {
+/* для экрана 768px */
+@media  screen and (max-width: 1023px) {
     .header {
-        margin: 16px 16px 0;
-    }
+        max-width: 720px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }    
+}
+
+/*для экрана 320px */
+@media screen and (max-width: 768px) {
+    .header {
+        max-width: 288px;
+        margin: 16px 16px 48px 16px;
+    }  
 }

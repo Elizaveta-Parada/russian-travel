@@ -6,10 +6,30 @@
     min-height: 671px;
 }
 
+/* для экранов 1024px */
 @media screen and (max-width: 1279px) {
     .photo-grid {
-        width: 100%;
         max-width: 928px;
         min-height: 942px;
     } 
 }
+
+/* для экранов 768px */
+@media screen and (max-width: 1023px) {
+    .photo-grid {
+        max-width: 720px;
+        min-height: 1664px;
+        margin: auto;
+    }
+}
+
+/* для экранов 320px */
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        max-width: 288px;
+        min-height: 2724px;
+        margin-bottom: 66px;
+    }
+    
+}
+

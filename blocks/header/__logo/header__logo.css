@@ -1,20 +1,23 @@
 .header__logo {
     position: absolute;
+    width: 100%;
     max-width: 176px;
     min-height: 52px;
     margin-left: 48px;
     margin-top: 28px;
 }
 
+/* для экранов 1024px */
 @media screen and (max-width: 1023px) {
     .header__logo {
         margin-left: 24px;
     }
 }
 
+/* для экранов 320px */
 @media screen and (max-width: 767px) {
     .header__logo {
-        width: 142px;
-        height: 42px;
+        max-width: 142px;
+        min-height: 42px;
     }
 }

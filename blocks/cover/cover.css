@@ -6,12 +6,31 @@
     box-sizing: border-box;
 }
 
+/* для экранов 1024px */
 @media screen and (max-width: 1279px) {
     .cover {
         max-width: 1024px;
         min-height: 640px;
         margin-left: 0;
         margin-right: 0;
+    }
+}
+
+/* для экранов 768px */
+@media screen and (max-width: 1023px) {
+    .cover {
+        max-width: 768px;
+        min-height: 480px;
+        margin-left: 0;
+        margin-right: 0;
+    } 
+}
+
+/* для экранов 320px */
+@media screen and (max-width: 767px) {
+    .cover {
+        max-width: 320px;
+        min-height: 200px;
     }
     
 }
