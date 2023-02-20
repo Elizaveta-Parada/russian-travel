@@ -12,6 +12,9 @@
 * адаптивная верстка (медиазапросы, грид-контрейнеры)
 
 
+https://elizaveta-parada.github.io/russian-travel/
+
+
 
 
 
