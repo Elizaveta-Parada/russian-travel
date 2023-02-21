@@ -1,34 +1,27 @@
 .photo-grid {
-    width: 100%;
-    margin: 0 auto;
+    margin: auto;
     box-sizing: border-box;
-    max-width: 1184px;
-    min-height: 671px;
+    width: calc(100% - 48px*2);
 }
 
 /* для экранов 1024px */
 @media screen and (max-width: 1279px) {
     .photo-grid {
-        max-width: 928px;
-        min-height: 942px;
+                
     } 
 }
 
 /* для экранов 768px */
 @media screen and (max-width: 1023px) {
     .photo-grid {
-        max-width: 720px;
-        min-height: 1664px;
-        margin: auto;
+        width: calc(100% - 24px*2);  
     }
 }
 
 /* для экранов 320px */
 @media screen and (max-width: 767px) {
     .photo-grid {
-        max-width: 288px;
-        min-height: 2724px;
-        margin-bottom: 66px;
+        width: calc(100% - 16px*2);
     }
     
 }
