@@ -30,7 +30,7 @@
 }
 
 /* для экранов 320px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .place__title {
         max-width: 288px;
         min-height: 35px;
