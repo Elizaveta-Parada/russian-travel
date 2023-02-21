@@ -3,28 +3,3 @@
     height: 100%;
     object-fit: cover;
 }
-
-/* для экранов 1024px*
-@media screen and (max-width: 1279px) {
-    .lead__image {
-        max-width: 928px;
-        min-height: 580px;
-    } 
-} 
-
-/* для экранов 768px*
-@media screen and (max-width: 1023px) {
-    .lead__image {
-        max-width: 768px;
-        min-height: 480px;
-    }
-}
-
-/* для экранов 320px*
-@media screen and (max-width: 767px) {
-    .lead__image {
-        max-width: 320px;
-        min-height: 200px;
-    }
-    
-}

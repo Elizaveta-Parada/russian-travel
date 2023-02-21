@@ -14,8 +14,6 @@
 https://elizaveta-parada.github.io/russian-travel/
 
 
-https://elizaveta-parada.github.io/russian-travel/
-
 
 
 
