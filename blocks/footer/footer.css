@@ -1,6 +1,7 @@
 .footer {
     padding-top: 92px;
     padding-bottom: 24px;
+    padding-left: 48px;
     width: calc(100% - 48px*2);
     height: auto;
     font-weight: 400;
