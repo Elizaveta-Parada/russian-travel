@@ -1,7 +1,6 @@
 .lead__caption {
     padding-top: 8px;
-    margin: auto;
-    width: calc(100% );
+    max-width: 158px;
     height: auto;
     min-height: 14px;
     font-weight: 400;

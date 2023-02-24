@@ -22,13 +22,13 @@
 @media screen and (max-width: 1023px) {
     .intro { 
         width: calc(720*100%/768);
-        padding: 88px 24px;
+        padding: 88px 0 88px 24px;
     }
 }
 /* для экранов 320px */
 @media screen and (max-width: 767px) {
     .intro {
         width: calc(288*100%/320);
-        padding: 64px 16px;
+        padding: 64px 0 64px 16px;
     }
 }
