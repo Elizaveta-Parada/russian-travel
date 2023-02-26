@@ -18,6 +18,6 @@
 /* для экранов 320px */
 @media screen and (max-width: 767px) {
     .places__list {
-        gap: 48px;
+        gap: 50px;
     }
 }

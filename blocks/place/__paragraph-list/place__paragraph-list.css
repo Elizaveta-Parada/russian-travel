@@ -16,7 +16,7 @@
     .place__paragraph-list {
         max-width: 352px;
         font-size: 16px;
-        line-height: 26.08px;
+        line-height: 26px;
         gap: 25px;
     }  
 }
