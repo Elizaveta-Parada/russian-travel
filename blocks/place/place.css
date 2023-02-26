@@ -1,6 +1,6 @@
 .place {
     list-style: none;
-    display: grid;  
+    display: grid; 
    grid-template-columns:  minmax(1fr, max-content)  minmax(min-content, max-content);
     grid-gap: 48px 40px;
     grid-template-areas:
@@ -22,16 +22,24 @@
     } 
 }
 
-/* для экранов 320px */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 720px) {
     .place {
+        justify-items: center;
         grid-template-columns: 1fr;
-        grid-template-rows: minmax(1fr, max-content );
+        grid-template-rows: minmax(1fr, max-content);
         grid-gap: 32px;
         grid-template-areas:
         "title" 
         "website"
         "image" 
         "text";   
+    }
+    
+}
+
+/* для экранов 320px */
+@media screen and (max-width: 400px) {
+    .place {
+        justify-items: flex-start;  
     }
 }

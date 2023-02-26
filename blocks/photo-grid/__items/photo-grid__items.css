@@ -1,7 +1,7 @@
 .photo-grid__items {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 284px);
+    grid-template-rows: repeat(3, 213px);
     grid-gap: 16px;
     list-style: none;
     padding: 0;
@@ -10,8 +10,8 @@
 /* для экранов 1024px */
 @media screen and (max-width: 1279px) {
     .photo-grid__items {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: repeat(4, 225px);
         grid-gap: 14px;
     }   
 }
@@ -19,8 +19,8 @@
 /* для экранов 768px */
 @media screen and (max-width: 1023px) {
     .photo-grid__items {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(2, 352px);
+        grid-template-rows: repeat(6, 264px);
         grid-gap: 16px;
     } 
 }
@@ -28,8 +28,8 @@
 /* длч экранов 320px */ 
 @media screen and (max-width: 767px) {
     .photo-grid__items { 
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(8, 1fr);
+        grid-template-columns: repeat(1, 288px);
+        grid-template-rows: repeat(8, 216px);
         grid-gap: 12px;
     }    
 }

@@ -1,7 +1,6 @@
 .place__website-link {
     font-size: 18px;
     line-height: 22px;
-    letter-spacing: 2px;
     text-decoration-line: underline;
     color: #FFFFFF;
 }
@@ -9,4 +8,4 @@
 .place__website-link:hover {
     transition: color 1s ease 0.5s;
     opacity: 0.8;
-  }
+}
