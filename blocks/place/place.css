@@ -1,7 +1,12 @@
 .place {
     list-style: none;
+<<<<<<< HEAD
     display: grid; 
    grid-template-columns:  minmax(1fr, max-content)  minmax(min-content, max-content);
+=======
+    display: grid;
+    grid-template-columns:  minmax(1fr, max-content)  minmax(min-content, max-content);
+>>>>>>> d96522e52b898ee3941b2115891b7f66ffbfb858
     grid-gap: 48px 40px;
     grid-template-areas:
         "title website"
@@ -34,6 +39,7 @@
         "image" 
         "text";   
     }
+<<<<<<< HEAD
     
 }
 
@@ -43,3 +49,6 @@
         justify-items: flex-start;  
     }
 }
+=======
+}
+>>>>>>> d96522e52b898ee3941b2115891b7f66ffbfb858
